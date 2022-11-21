@@ -64,7 +64,8 @@ defmodule Astarte.DataAccess.Mixfile do
 
   defp astarte_required_modules(_) do
     [
-      {:astarte_core, github: "astarte-platform/astarte_core", tag: "v1.1.0-alpha.0"}
+      {:astarte_core,
+       github: "Annopaolo/astarte_core", branch: "known-value-data-trigger-proto-encoding"}
     ]
   end
 
