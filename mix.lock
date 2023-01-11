@@ -1,5 +1,5 @@
 %{
-  "astarte_core": {:git, "https://github.com/astarte-platform/astarte_core.git", "636f50d6d7dddd1ee6f205a677acf378d2bddeea", [branch: "release-1.1"]},
+  "astarte_core": {:git, "https://github.com/annopaolo/astarte_core.git", "c07b6ef62c866e74ced4901213ae3c831cae628d", [branch: "policy_prefetch_count"]},
   "castore": {:hex, :castore, "0.1.9", "eb08a94c12ebff92a92d844c6ccd90728dc7662aab9bdc8b3b785ba653c499d5", [:mix], [], "hexpm", "99c3a38ad9c0bab03fee1418c98390da1a31f3b85e317db5840d51a1443d26c8"},
   "certifi": {:hex, :certifi, "2.6.1", "dbab8e5e155a0763eea978c913ca280a6b544bfa115633fa20249c3d396d9493", [:rebar3], [], "hexpm", "524c97b4991b3849dd5c17a631223896272c6b0af446778ba4675a1dff53bb7e"},
   "cqerl": {:hex, :cqerl, "2.0.1", "c92929e885adc50cda1f11b73eb0121363e8418533312f8a44defb5f14853445", [:rebar3], [{:lz4, "~>0.2.4", [hex: :lz4_erl, repo: "hexpm", optional: false]}, {:re2, "1.9.5", [hex: :re2, repo: "hexpm", optional: false]}, {:semver, "~>0.0.1", [hex: :semver_erl, repo: "hexpm", optional: false]}, {:snappyer, "1.2.6", [hex: :snappyer, repo: "hexpm", optional: false]}, {:uuid, "~>2.0.0", [hex: :uuid_erl, repo: "hexpm", optional: false]}], "hexpm", "96e9ee407830508187a5edff9fc49983a7122b5c4127c640320a226b59ae12fe"},
